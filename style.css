@@ -1,0 +1,59 @@
+#blococentral{
+    width: 400px;
+    height: 450px;
+    background-color: #161616;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#imagem{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    
+}
+
+
+#p3{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 1;
+}
+#p2{
+    color: hsl(75, 94%, 57%);
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+#h2{
+    color: white;
+    font-weight: bold ;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+.botao{
+    display: block; 
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #333; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 10px
+    
+}
